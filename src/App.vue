@@ -23,13 +23,16 @@
               <h1>Le Bonneteau</h1>
             </div>
             <div class="col-xs-6">
-              <p>Le bonneteau est un jeu d'argent, un jeu de dupes de l'ordre de l'escroquerie, proposé à la sauvette sur les marchés et dans les lieux statics. Il est pratiqué au moins depuis le xive siècle en France, et encore dans de nombreux pays.</p>
-              <a href="https://fr.wikipedia.org/wiki/Bonneteau">enfin d'après wikipédia en tout cas…</a>
-              <h2>Règles</h2>
-              <p>Le but du jeu est assez simple, on montre un objet, puis on le cache sous l'une des trois propositions.
-                  Qui peuvent être des cartes ou des gobelets qui cachent un dé. Dans notre cas: des coquillages et une perle. (On est de grands poètes chez back market).
-                  Ensuite, on mélange les propositions et l'utilisateur doit faire un choix pour retrouver son objet.
-                  On lui dit si il a perdu ou gagné.</p>
+              <p>The three-card Monte game itself is very simple. To play, a dealer places three cards face down on a table, usually on a cardboard box which provides the ability to set up and disappear quickly.[4] The dealer shows that one of the cards is the target card, e.g. <a href="https://en.wikipedia.org/wiki/Three-card_Monte">acording to wikipedia…</a></p>
+              
+              <h2>Rules</h2>
+              <p>
+                The game goal is very simple, the game shows an object, and then the object is hidden under one of the 3 hidding element.
+                The hidding element can be whatever you like, either cards, cups… and they usually hide a dice.
+                I our you can show shells for instance hidding a pearl.
+                Then we shuffle the objects and the user must make a selection to find his object.
+                Then we display winner or looser.
+              </p>
             </div>
             <div class="col-xs-4">
               <img src="http://jamiemason.github.io/front-end-engineer-interview-exercise/static/cat-game-of-shells.gif">
@@ -37,22 +40,20 @@
           </div>
           <div class="row">
             <div class="col-xs-8">
-              <h2>L'objectif de cet entretien</h2>
-              <p>$$$$VARNAME$$$$ ta mission si tu l'acceptes, est de <strong>coder un petit jeu de bonneteau</strong></p>
+              <h2>The goal of this test</h2>
+              <p>You're mission if you accept it <strong>is to code a game</strong></p>
               <p>
-                L'objectif prioritaire étant de fournir un jeu qui marche. <em>Parcequ'on aimerait bien pouvoir s'amuser ici. ;)</em><br>
+                The primary goal is to make a working game available. <em>because we would like to have fun here</em><br>
               </p>
-              <h2>Le code</h2>
-              <p>Il faut réaliser une application en javascript qui effectue un call XHR vers cette url: <pre>https://www.random.org/integers/?num=1&min=0&max=2&col=1&base=10&format=plain&rnd=new</pre>
-                Cette API renvoie une valeur entre 0 et 2 de manière aléatoire. Il faut l'utiliser pour définir au moment du mélange sous quel coquillage se cache la perle.
+              <h2>The code</h2>
+              <p>
+                You need to build an app in vueJs, making an XHR call to this url: <pre>https://www.random.org/integers/?num=1&min=0&max=2&col=1&base=10&format=plain&rnd=new</pre>
+                This enpoint will randomly return a value between 0 & 2. You need to get the information from here to know under which object you will display the pearl
               </p>
-              <p>Pour le code tu peux utiliser tous les frameworks que tu veux. Et te documenter comme tu veux sur google, stackoverflow etc… <br>
-                Tu as une liberté totale sur les éventuels styles ou animations. Je te fournis 2 images, tu peux les utiliser si tu le souhaite ou utiliser complètement autrechose.
+              <p>you can use whatever online documentation you need
               </p>
               <p>
-                On parlera ensuite de ce que tu as fais et ce que tu aurais voulu faire.
-                <br>
-                <strong>Amuse-toi bien !</strong>
+                <strong>Enjoy ! </strong>
               </p>
               <br>
               <img src="static/logo.png" style="max-width: 20.7rem; display: block; margin-top: 0rem; margin-bottom: 0.7rem ">
