@@ -1,14 +1,12 @@
 <template>
-  <div>
+  <span>
     <img src="../assets/pearl.jpeg" v-if="pearlHere">
-    <img src="../assets/shell.png" alt="shell" @click.prevent.native="flipShell">
-  </div>
+    <img class="shell-pic" src="../assets/shell.png" v-if="!pearlHere" alt="shell" @click.prevent="flipShell">
+  </span>
 
 </template>
 
 <script>
-import api from "../api";
-
 export default {
   data() {
     return {
@@ -28,4 +26,11 @@ export default {
   }
 };
 </script>
+
+<style>
+.shell-pic {
+  width: 30%;
+}
+</style>
+
 
